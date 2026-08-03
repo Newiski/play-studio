@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Play Classic Snake Game - Play Studio</title>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #000; }
+        .header { background: #1a1a24; padding: 15px 25px; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #ff0055; }
+        .header a { color: white; text-decoration: none; font-family: sans-serif; font-weight: bold; background: #ff0055; padding: 10px 25px; border-radius: 30px; transition: 0.2s; text-transform: uppercase; }
+        .header a:hover { background: #ff3377; transform: scale(1.05); }
+        .header span { color: white; font-family: sans-serif; font-weight: 900; font-size: 1.4rem; }
+        iframe { width: 100%; height: calc(100% - 65px); border: none; background: #000; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="/">⬅ Menu Principal</a>
+        <span>🔥 Play Classic Snake Game</span>
+    </div>
+    <!-- L'iFrame charge le fichier game.html qui est dans le MÊME dossier ! Zéro blocage possible. -->
+    <iframe src="game.html" allowfullscreen></iframe>
+</body>
+</html>
